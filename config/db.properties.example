@@ -1,0 +1,13 @@
+# ==============================================================================
+# CyberShield Arena — Database Configuration Template
+# Copy this file to config/db.properties and set your local credentials.
+# Environment variables will override these properties:
+#   CYBERSHIELD_DB_URL, CYBERSHIELD_DB_USER, CYBERSHIELD_DB_PASSWORD
+# ==============================================================================
+
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/cybershield_arena?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&createDatabaseIfNotExist=true
+db.user=root
+db.password=root1234
+db.pool.maxActive=10
+db.pool.timeoutMs=5000

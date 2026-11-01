@@ -1,0 +1,161 @@
+eventId,timestamp,attackType,sourceNodeId,targetNodeId,severity,failedLoginCount,connectionAttemptCount,uniquePortCount,firewallAction,eventDescription
+EVT-0001,2026-10-28T10:24:47.570295900Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T10:24:47.571821500Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T10:24:47.573501800Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T10:24:47.574089100Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T10:24:47.581802900Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T10:24:47.582957700Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T10:24:47.584997400Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T10:25:44.492025200Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T10:25:44.492938600Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T10:25:44.495234200Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T10:25:44.495788Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T10:25:44.504549400Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T10:25:44.505612200Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T10:25:44.507576900Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T17:42:56.066844300Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T17:42:56.068066300Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T17:42:56.070331200Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T17:42:56.071502900Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T17:42:56.080690700Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T17:42:56.083008700Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T17:42:56.084662700Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T17:46:56.256168700Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T17:46:56.257177200Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T17:46:56.258262Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T17:46:56.259403700Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T17:46:56.265594600Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T17:46:56.268021500Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T17:46:56.269529100Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T17:51:23.739176600Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T17:51:23.741673700Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T17:51:23.744561400Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T17:51:23.745777400Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T17:51:23.757656900Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T17:51:23.760025500Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T17:51:23.762470200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T18:38:33.930004600Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T18:38:33.934072800Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T18:38:33.938810100Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T18:38:33.940742500Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T18:38:33.963356Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T18:38:33.968368300Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T18:38:33.973118500Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T18:40:32.458891800Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T18:40:32.462017200Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T18:40:32.464826600Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T18:40:32.466140900Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T18:40:32.478766200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T18:40:32.480665800Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T18:40:32.483621100Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T18:42:10.969955800Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T18:42:10.974121100Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T18:42:10.978142100Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T18:42:10.980146400Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T18:42:11.000157600Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T18:42:11.008899800Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T18:42:11.017106100Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T19:02:08.322328100Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T19:02:08.325034400Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T19:02:08.327933500Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T19:02:08.329745700Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T19:02:08.341827700Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T19:02:08.344235500Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T19:02:08.346128Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0001,2026-10-28T19:51:04.520052100Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T19:51:04.523138600Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T19:51:04.526043600Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T19:51:04.527720300Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T19:51:04.538896700Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T19:51:04.541248500Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T19:51:04.544954200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0058,2026-10-28T19:51:04.956930400Z,PORT_SCAN,WS-001,RTR-001,MEDIUM,0,8,8,N/A,Port sweep detected: 8 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0059,2026-10-28T19:51:04.956930400Z,LOGIN_ATTACK,WS-001,SRV-001,CRITICAL,20,20,1,N/A,Brute-force authentication attack: 20 consecutive failed login attempts targeting account 'admin'.
+EVT-0060,2026-10-28T19:51:04.957492200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,400,1,BLOCK,Suspicious connection CONTAINED: 400 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0081,2026-10-28T19:51:04.983735900Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,5,5,N/A,Port sweep detected: 5 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0082,2026-10-28T19:51:04.983735900Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0083,2026-10-28T19:51:04.987252200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,250,1,BLOCK,Suspicious connection CONTAINED: 250 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0001,2026-10-28T19:56:06.026567100Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-28T19:56:06.029112800Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-28T19:56:06.032355700Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-28T19:56:06.033616Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-28T19:56:06.044990100Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-28T19:56:06.047105900Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-28T19:56:06.050332Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0058,2026-10-28T19:56:06.836276700Z,PORT_SCAN,WS-001,RTR-001,MEDIUM,0,8,8,N/A,Port sweep detected: 8 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0059,2026-10-28T19:56:06.837274800Z,LOGIN_ATTACK,WS-001,SRV-001,CRITICAL,20,20,1,N/A,Brute-force authentication attack: 20 consecutive failed login attempts targeting account 'admin'.
+EVT-0060,2026-10-28T19:56:06.840278400Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,400,1,BLOCK,Suspicious connection CONTAINED: 400 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0081,2026-10-28T19:56:06.906331700Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,5,5,N/A,Port sweep detected: 5 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0082,2026-10-28T19:56:06.907416800Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0083,2026-10-28T19:56:06.914354100Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,250,1,BLOCK,Suspicious connection CONTAINED: 250 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0001,2026-10-29T07:41:01.628851Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-29T07:41:01.629792400Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-29T07:41:01.631497700Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-29T07:41:01.632040100Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-29T07:41:01.643592800Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-29T07:41:01.644145100Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-29T07:41:01.645756300Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0058,2026-10-29T07:41:02.124194600Z,PORT_SCAN,WS-001,RTR-001,MEDIUM,0,8,8,N/A,Port sweep detected: 8 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0059,2026-10-29T07:41:02.124194600Z,LOGIN_ATTACK,WS-001,SRV-001,CRITICAL,20,20,1,N/A,Brute-force authentication attack: 20 consecutive failed login attempts targeting account 'admin'.
+EVT-0060,2026-10-29T07:41:02.124194600Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,400,1,BLOCK,Suspicious connection CONTAINED: 400 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0081,2026-10-29T07:41:02.152244900Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,5,5,N/A,Port sweep detected: 5 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0082,2026-10-29T07:41:02.152244900Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0083,2026-10-29T07:41:02.154925200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,250,1,BLOCK,Suspicious connection CONTAINED: 250 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0001,2026-10-29T08:14:45.428622700Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-29T08:14:45.429939500Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-29T08:14:45.431535700Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-29T08:14:45.432098500Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-29T08:14:45.438845300Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-29T08:14:45.439926100Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-29T08:14:45.441583600Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0058,2026-10-29T08:14:45.948347200Z,PORT_SCAN,WS-001,RTR-001,MEDIUM,0,8,8,N/A,Port sweep detected: 8 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0059,2026-10-29T08:14:45.948347200Z,LOGIN_ATTACK,WS-001,SRV-001,CRITICAL,20,20,1,N/A,Brute-force authentication attack: 20 consecutive failed login attempts targeting account 'admin'.
+EVT-0060,2026-10-29T08:14:45.948347200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,400,1,BLOCK,Suspicious connection CONTAINED: 400 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0081,2026-10-29T08:14:45.968221Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,5,5,N/A,Port sweep detected: 5 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0082,2026-10-29T08:14:45.968221Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0083,2026-10-29T08:14:45.970727200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,250,1,BLOCK,Suspicious connection CONTAINED: 250 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0001,2026-10-29T08:19:14.493338100Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,6,6,N/A,Port sweep detected: 6 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-29T08:19:14.495477500Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,16,16,1,N/A,Brute-force authentication attack: 16 consecutive failed login attempts targeting account 'root'.
+EVT-0003,2026-10-29T08:19:17.011791200Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,6,6,N/A,Port sweep detected: 6 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0004,2026-10-29T08:19:17.012989800Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,16,16,1,N/A,Brute-force authentication attack: 16 consecutive failed login attempts targeting account 'root'.
+EVT-0005,2026-10-29T08:19:21.494313400Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,6,6,N/A,Port sweep detected: 6 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0006,2026-10-29T08:19:21.495318700Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,16,16,1,N/A,Brute-force authentication attack: 16 consecutive failed login attempts targeting account 'root'.
+EVT-0001,2026-10-29T08:20:10.324075200Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-29T08:20:10.326075600Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-29T08:20:10.327077800Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-29T08:20:10.329078300Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-29T08:20:10.336774400Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-29T08:20:10.339988800Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-29T08:20:10.345082300Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0058,2026-10-29T08:20:10.732974Z,PORT_SCAN,WS-001,RTR-001,MEDIUM,0,8,8,N/A,Port sweep detected: 8 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0059,2026-10-29T08:20:10.732974Z,LOGIN_ATTACK,WS-001,SRV-001,CRITICAL,20,20,1,N/A,Brute-force authentication attack: 20 consecutive failed login attempts targeting account 'admin'.
+EVT-0060,2026-10-29T08:20:10.735289Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,400,1,BLOCK,Suspicious connection CONTAINED: 400 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0081,2026-10-29T08:20:10.778802900Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,5,5,N/A,Port sweep detected: 5 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0082,2026-10-29T08:20:10.779803Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0083,2026-10-29T08:20:10.783992300Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,250,1,BLOCK,Suspicious connection CONTAINED: 250 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0001,2026-10-29T08:32:22.756992100Z,PORT_SCAN,WS-001,RTR-001,MEDIUM,0,8,8,N/A,Port sweep detected: 8 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0002,2026-10-29T08:32:22.758984900Z,LOGIN_ATTACK,WS-001,SRV-001,CRITICAL,20,20,1,N/A,Brute-force authentication attack: 20 consecutive failed login attempts targeting account 'admin'.
+EVT-0003,2026-10-29T08:32:22.765111700Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,400,1,BLOCK,Suspicious connection CONTAINED: 400 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0001,2026-10-29T09:39:31.507566700Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,6,6,N/A,Port sweep detected: 6 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-29T09:39:31.512552900Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,16,16,1,N/A,Brute-force authentication attack: 16 consecutive failed login attempts targeting account 'root'.
+EVT-0001,2026-10-29T09:41:12.872699800Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,10,10,N/A,Port sweep detected: 10 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-29T09:41:12.875699600Z,PORT_SCAN,WS-001,RTR-001,HIGH,0,25,25,N/A,Port sweep detected: 25 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0003,2026-10-29T09:41:12.879701300Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0004,2026-10-29T09:41:12.882822300Z,LOGIN_ATTACK,WS-001,WS-002,MEDIUM,5,5,1,N/A,"Brute-force authentication attack: 5 consecutive failed login attempts targeting account 'admin' [Target OS: Ubuntu 22.04, Current User: admin]."
+EVT-0005,2026-10-29T09:41:12.909485200Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,LOW,0,3,1,BLOCK,Suspicious connection CONTAINED: 3 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0006,2026-10-29T09:41:12.916805700Z,SUSPICIOUS_CONNECTION,WS-001,RTR-001,HIGH,0,12,1,BLOCK,Suspicious connection CONTAINED: 12 attempt(s) from WS-001 to RTR-001 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0007,2026-10-29T09:41:12.926644300Z,SUSPICIOUS_CONNECTION,WS-001,SRV-001,HIGH,0,8,1,ALLOW,Suspicious connection ACTIVE: 8 attempt(s) from WS-001 to SRV-001 PERMITTED by firewall. High-risk traffic flowing.
+EVT-0058,2026-10-29T09:41:13.742904Z,PORT_SCAN,WS-001,RTR-001,MEDIUM,0,8,8,N/A,Port sweep detected: 8 ports probed on target RTR-001. 0 open port(s) discovered.
+EVT-0059,2026-10-29T09:41:13.743942500Z,LOGIN_ATTACK,WS-001,SRV-001,CRITICAL,20,20,1,N/A,Brute-force authentication attack: 20 consecutive failed login attempts targeting account 'admin'.
+EVT-0060,2026-10-29T09:41:13.745942800Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,400,1,BLOCK,Suspicious connection CONTAINED: 400 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0081,2026-10-29T09:41:13.943580100Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,5,5,N/A,Port sweep detected: 5 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0082,2026-10-29T09:41:13.945882Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,18,18,1,N/A,Brute-force authentication attack: 18 consecutive failed login attempts targeting account 'root'.
+EVT-0083,2026-10-29T09:41:13.966822700Z,SUSPICIOUS_CONNECTION,WS-001,SRV-002,HIGH,0,250,1,BLOCK,Suspicious connection CONTAINED: 250 attempt(s) from WS-001 to SRV-002 INTERCEPTED and BLOCKED by firewall policy.
+EVT-0001,2026-10-29T13:43:53.160782100Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,6,6,N/A,Port sweep detected: 6 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-29T13:43:53.178254500Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,16,16,1,N/A,Brute-force authentication attack: 16 consecutive failed login attempts targeting account 'root'.
+EVT-0003,2026-10-29T13:44:03.778958300Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,6,6,N/A,Port sweep detected: 6 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0004,2026-10-29T13:44:03.809173500Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,16,16,1,N/A,Brute-force authentication attack: 16 consecutive failed login attempts targeting account 'root'.
+EVT-0005,2026-10-29T13:44:04.485466500Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,6,6,N/A,Port sweep detected: 6 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0006,2026-10-29T13:44:04.565665600Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,16,16,1,N/A,Brute-force authentication attack: 16 consecutive failed login attempts targeting account 'root'.
+EVT-0001,2026-10-30T05:13:24.641454500Z,PORT_SCAN,WS-001,SRV-001,MEDIUM,0,6,6,N/A,Port sweep detected: 6 ports probed on target SRV-001. 1 open port(s) discovered.
+EVT-0002,2026-10-30T05:13:24.647456500Z,LOGIN_ATTACK,WS-001,SRV-002,CRITICAL,16,16,1,N/A,Brute-force authentication attack: 16 consecutive failed login attempts targeting account 'root'.

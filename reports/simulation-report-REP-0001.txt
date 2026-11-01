@@ -1,0 +1,82 @@
+======================================================================================
+                               CYBERSHIELD ARENA
+                          SIMULATION EVALUATION REPORT
+======================================================================================
+
+--- SECTION 1: PROJECT INFORMATION ---
+Project Name         : CyberShield Arena: Cyber Attack vs Defense Simulation
+Report ID            : REP-0001
+Generation Timestamp : 2026-10-29T13:44:59.914489100Z
+Simulation Scenarios : Master Session Evaluation
+Dataset Description  : Synthetic labelled simulation dataset (Normal vs Suspicious)
+
+--- SECTION 2: SIMULATION SUMMARY ---
+Total Virtual Devices: 5
+Active Connections   : 0 | Blocked: 0 | Disconnected: 0
+Total Events Produced: 6 (Processed: 6)
+Events by Attack Type: [PORT_SCAN: 3] [LOGIN_ATTACK: 3] [SUSPICIOUS_CONNECTION: 0] 
+Events by Severity   : [LOW: 0] [MEDIUM: 3] [HIGH: 0] [CRITICAL: 3] 
+Total Alerts Raised  : 3
+Defensive Actions Run: 0
+
+--- SECTION 3: DETECTION PERFORMANCE (RULE-BASED VS MACHINE LEARNING) ---
+Metric                 | Rule-Based         | Machine Learning  
+-----------------------+--------------------+--------------------
+Accuracy               |              80.0% |             100.0%
+Precision              |             1.0000 |             1.0000
+Recall (Detection Rate) |             0.4286 |             1.0000
+F1-Score               |             0.6000 |             1.0000
+False Positive Rate    |             0.0000 |             0.0000
+
+  Confusion Matrix [Rule-Based Detection] (rows = Actual, cols = Predicted):
+  +----------------------+--------------------+--------------------+
+  | Actual \ Predicted   | Pred SUSPICIOUS    | Pred NORMAL        |
+  +----------------------+--------------------+--------------------+
+  | Actual SUSPICIOUS    | TP = 3             | FN = 4             |
+  | Actual NORMAL        | FP = 0             | TN = 13            |
+  +----------------------+--------------------+--------------------+
+
+  Confusion Matrix [Machine Learning Detection] (rows = Actual, cols = Predicted):
+  +----------------------+--------------------+--------------------+
+  | Actual \ Predicted   | Pred SUSPICIOUS    | Pred NORMAL        |
+  +----------------------+--------------------+--------------------+
+  | Actual SUSPICIOUS    | TP = 7             | FN = 0             |
+  | Actual NORMAL        | FP = 0             | TN = 13            |
+  +----------------------+--------------------+--------------------+
+
+--- SECTION 4: AUTOMATED DEFENSE & INCIDENT RESPONSE ---
+Defensive Actions Attempted : 0
+Successful Actions          : 0
+Failed / Rejected Actions   : 0
+Duplicate Actions Avoided   : 0
+Total Security Incidents    : 0
+Incidents Contained         : 0 (Containment Rate: 0.0%)
+Incidents Recovered         : 0 (Recovery Rate: 0.0%)
+Remaining Open Incidents    : 0
+
+--- SECTION 5: SIMULATION PERFORMANCE BENCHMARK (IN-MEMORY SOFTWARE) ---
+Total Simulation Duration   : 0.00 ms
+Event Processing Duration   : 0.00 ms
+Rule Detection Duration     : 173.59 ms
+ML Prediction Duration      : 0.00 ms
+Defense Action Duration     : 0.00 ms
+Average Time per Event      : 0.00 µs
+Event Throughput Rate       : 0.0 events/second
+
+--- SECTION 6: OBSERVATIONS & LIMITATIONS ---
+Key Findings:
+  1. Detector Agreement: High synergy observed where ML model confirmed rule triggers,
+     providing multi-factor evidence before disruptive actions (e.g. device quarantine).
+  2. Disagreements: 4 event(s) saw divergence between rule heuristics and ML,
+     demonstrating the necessity of defense policy fallbacks.
+  3. Defensive Idempotence: Duplicate response actions were successfully suppressed,
+     preventing flapping states in the virtual topology.
+
+Limitations:
+  - Network topology, attack actions, and traffic flows are strictly simulated in Java memory.
+  - The synthetic dataset captures common volumetric patterns but does not span zero-day exploits.
+  - Benchmarked latencies represent local JVM processing speeds, not physical network wire delays.
+
+======================================================================================
+                          END OF EVALUATION REPORT
+======================================================================================

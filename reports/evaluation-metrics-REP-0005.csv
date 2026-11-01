@@ -1,0 +1,3 @@
+reportId,timestamp,detector,accuracy,precision,recall,f1Score,fpr,tp,tn,fp,fn
+REP-0005,2026-10-29T09:41:14.022766Z,Rule-Based,0.8000,1.0000,0.4286,0.6000,0.0000,3,13,0,4
+REP-0005,2026-10-29T09:41:14.022766Z,Machine-Learning,1.0000,1.0000,1.0000,1.0000,0.0000,7,13,0,0
